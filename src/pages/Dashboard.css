@@ -14,16 +14,21 @@
     height: 100vh;
     position: fixed; /* Keep the sidebar fixed */
   }
-  
+  .cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   /* Main content area */
   .main-content {
-    margin-left: 250px; /* Adjust to match the sidebar width */
+    margin-left: 250px; 
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     background-color: #f8f9fa;
     padding: 20px;
-    overflow-y: auto; /* Enables scrolling */
+    overflow-y: auto;
+    margin-bottom: 100px;
   }
   
   /* Cards layout */
@@ -41,7 +46,15 @@
     padding: 20px;
     background-color: #f8f9fa;
     color: #6c757d;
-    width: 100%; /* Ensure full width */
+    width: 70%; /* Ensure full width */
     border-top: 1px solid #dee2e6;
   }
+  
+  .chart{
+    margin-bottom: 50px;
+  }
+
+
+  /* src/pages/Dashboard.css */
+
   

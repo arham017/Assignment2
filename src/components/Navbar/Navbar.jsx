@@ -6,8 +6,8 @@ const Navbar = () => {
     <nav className="navbar">
       <h2>Analytics Dashboard</h2>
       <div className="profile-section">
-        <img src="profile-pic-url" alt="Profile" className="profile-pic" />
-        <span>Charles Hall</span>
+        <img src="tri pic ka nam" alt="Profile" className="profile-pic" />
+        <span>Arham Irshad</span>
       </div>
     </nav>
   );

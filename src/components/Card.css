@@ -1,0 +1,53 @@
+/* src/components/Card.css */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    margin-left: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .card-icon {
+    font-size: 24px;
+  }
+  
+  .card-value {
+    font-size: 32px;
+    margin: 10px 0;
+    color: black;
+  }
+  
+  .card-change {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .positive-change {
+    color: green;
+  }
+  #textC{
+    color: black;
+  }
+  .negative-change {
+    color: red;
+  }
+  
+  .change-label {
+    margin-left: 4px;
+    color: #6c757d;
+  }
+  
