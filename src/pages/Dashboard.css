@@ -1,19 +1,21 @@
 /* Layout for the dashboard */
 .dashboard {
     display: flex;
-    flex-direction: column;
-    height: 100vh; /* 100% of the viewport height */
-  }
+    flex-direction: row;
+    /* column-gap: 20px; */
+    /* height: 100vh; 100% of the viewport height */
+}
   
   /* Sidebar styles */
-  .sidebar {
+  /* .sidebar {
     width: 250px;
     flex-shrink: 0;
     background-color: #343a40;
     color: white;
     height: 100vh;
-    position: fixed; /* Keep the sidebar fixed */
-  }
+    position: fixed; /* Keep the sidebar fixed 
+  } */
+
   .cont{
     display: flex;
     flex-direction: row;
@@ -21,14 +23,15 @@
   }
   /* Main content area */
   .main-content {
-    margin-left: 250px; 
+    margin-left: 270px; 
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     background-color: #f8f9fa;
     padding: 20px;
     overflow-y: auto;
-    margin-bottom: 100px;
+    color: rgb(52, 52, 52);
+    /* margin-bottom: 100px; */
   }
   
   /* Cards layout */
@@ -41,14 +44,18 @@
   
   /* Footer styles - Fixed at the bottom of the page */
   .footer {
-    margin-top: auto; /* Pushes the footer to the bottom */
+   
+  }
+/* 
+  .footer {
+    margin-top: auto; /* Pushes the footer to the bottom 
     text-align: center;
     padding: 20px;
     background-color: #f8f9fa;
     color: #6c757d;
-    width: 70%; /* Ensure full width */
+    width: 100vh; /* Ensure full width 
     border-top: 1px solid #dee2e6;
-  }
+  } */
   
   .chart{
     margin-bottom: 50px;

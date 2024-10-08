@@ -42,12 +42,12 @@ const Dashboard = () => {
             icon="🛍️"
           />
         </div>
-        <div className="cards">
+        {/* <div className="cards">
           <AnalyticsCard title="Sales" value="2,382" change="-3.65%" />
           <AnalyticsCard title="Earnings" value="$21,300" change="+6.65%" />
           <AnalyticsCard title="Visitors" value="14,212" change="+5.25%" />
           <AnalyticsCard title="Orders" value="64" change="-2.25%" />
-        </div>
+        </div> */}
 
         <Chart className="chart" />
 
